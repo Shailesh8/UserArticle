@@ -1,15 +1,68 @@
-      Framework :: Play Framework (support RESTFULL architecture )
-      DataBase :: MongoDB [NOSQL]
+      Title: Build REST API Endpoints of a Blogging Framework
 
-       To run the project :: ./activator run
-        
-        Minimum Requirememt :: 
-                         MongDB[please update the ip add and port for mongo server in in                           
-                         /conf/DBconfig.properties],
-                         Java 8 
+Technologies to be used:
+Play Framework & JSON
+Any Database; No SQL or SQL or InMemory
+Java
 
-    API ::
+Description: 
+You are required to emulate a mini blogging framework, very much similar to WordPress but mini version of it. System should provide the following features.
+Users can register, login and logout
+Maintain User Sessions
+
+User account will have basic details about the user
+
+User can publish an article
+localhost:9000/publishAnArticle/shailesh@gmail.com
+{
+  "id": "artest",
+  "article_name": "artest",
+  "publishArticle": "xyz",
+  "category":"HIstory"
+}
 
 
-All response are in JSON
+
+Each article will be associated with a category
+First you need to design DB to cover all the requirements mentioned above, write RESTful APIs with JSON response to support the system and develop RESTful APIs for the following:
+Login/ Logout/ SignUp of User
+POST localhost:9000/signup
+Input
+{
+  "id": "shailesh@gmail.com",
+  "email_id": "shailesh@gmail.com",
+  "username": "shailesh",
+  "name": "shailesh",
+  "password": "123",
+  "date_Of_Birth": "20/2/2000",
+  "gender": "Male",
+  "mobile_no": "9865292535",
+  "country": "India",
+  "city": "Hyderabad",
+  "postal_Zip_Code": "364002"
+}
+
+Response : 200
+
+Get all the articles associated with a user
+localhost:9000/getUserArticles/shailesh@gmail.com
+[
+  {
+    "article_name": "artest",
+    "publishArticle": "xyz",
+    "map_articleNameToPublishArticle": {},
+    "id": "art001"
+  }
+]
+ the given Article Remove
+Get all the articles belonging to a category
+Get all the users
+Get user profile of a particular user
+Modify the category of a particular article
+
+
+
+
+
+
 
