@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/avirup/Downloads/placeFind-master/DbFramework/conf/Application.routes,/home/avirup/Downloads/placeFind-master/DbFramework/target/scala-2.10/classes/Application.routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/avirup/Downloads/placeFind-master/DbFramework/conf/logger.xml,/home/avirup/Downloads/placeFind-master/DbFramework/target/scala-2.10/classes/logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/avirup/Downloads/placeFind-master/DbFramework/conf/application.conf,/home/avirup/Downloads/placeFind-master/DbFramework/target/scala-2.10/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/avirup/Downloads/placeFind-master/DbFramework/conf/DBconfig.properties,/home/avirup/Downloads/placeFind-master/DbFramework/target/scala-2.10/classes/DBconfig.properties)[0m

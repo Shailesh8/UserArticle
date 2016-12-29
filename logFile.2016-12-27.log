@@ -1,0 +1,675 @@
+04:20:00.794 [Caller+0	 at play.Logger$ALogger.info(Logger.java:364)
+Caller+1	 at Global.onStart(Global.java:19)
+ : 92064] INFO PROJECT - Application Started 
+04:20:00.862 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:58)
+ : 92132] DEBUG PROJECT - Entered into method 
+04:20:00.863 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:98)
+ : 92133] DEBUG PROJECT - Entered into method 
+04:20:00.865 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:119)
+ : 92135] DEBUG PROJECT - Exit from method 
+04:20:00.866 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:72)
+ : 92136] DEBUG PROJECT - Configuration files are loading 
+04:20:00.900 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:81)
+ : 92170] DEBUG PROJECT - loading of Configuration files success 
+04:20:00.901 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:82)
+ : 92171] DEBUG PROJECT - Exit from method 
+04:20:00.905 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:26)
+ : 92175] DEBUG PROJECT - Entered into method 
+04:20:00.910 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:137)
+ : 92180] DEBUG PROJECT - Entered into method 
+04:20:00.911 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:139)
+ : 92181] DEBUG PROJECT - Exit from method 
+04:20:01.905 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:31)
+ : 93175] DEBUG PROJECT - MongoDB Connection is Established 
+04:20:01.907 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:33)
+ : 93177] DEBUG PROJECT - mongoDB is running on port 27017 
+04:20:01.976 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:52)
+ : 93246] DEBUG PROJECT - Exit from method 
+04:20:02.111 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 93381] DEBUG PROJECT - Entered into method 
+04:20:02.139 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 93409] DEBUG PROJECT - Entered into method 
+04:20:02.162 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 93432] DEBUG PROJECT - Exit from method 
+04:20:02.196 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 93466] DEBUG PROJECT - Exit from method 
+04:20:02.197 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 93467] DEBUG PROJECT - Entered into method 
+04:20:02.197 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 93467] DEBUG PROJECT - Entered into method 
+04:20:02.198 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 93468] DEBUG PROJECT - Exit from method 
+04:20:02.198 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 93468] DEBUG PROJECT - Entered into method 
+04:20:02.199 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 93469] DEBUG PROJECT - Exit from method 
+04:20:02.234 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 93504] DEBUG PROJECT - Input parameters are : {"id":"1","name":"PizzaHut","category":"pizza","rating":3.8,"latitude":49.4680000649,"longitude":17.1151400876} 
+04:20:04.522 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 95792] DEBUG PROJECT - DB Object saved successfully into Database 
+04:20:04.523 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 95793] DEBUG PROJECT - Exit from method 
+04:20:04.524 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 95794] DEBUG PROJECT - Entered into method 
+04:20:04.525 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95795] DEBUG PROJECT - Entered into method 
+04:20:04.525 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95795] DEBUG PROJECT - Exit from method 
+04:20:04.526 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 95796] DEBUG PROJECT - Exit from method 
+04:20:04.526 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 95796] DEBUG PROJECT - Entered into method 
+04:20:04.527 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 95797] DEBUG PROJECT - Entered into method 
+04:20:04.527 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 95797] DEBUG PROJECT - Exit from method 
+04:20:04.528 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95798] DEBUG PROJECT - Entered into method 
+04:20:04.528 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95798] DEBUG PROJECT - Exit from method 
+04:20:04.530 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 95800] DEBUG PROJECT - Input parameters are : {"id":"2","name":"Western","category":"pizza","rating":2.8,"latitude":34.97,"longitude":138.93} 
+04:20:04.532 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 95802] DEBUG PROJECT - DB Object saved successfully into Database 
+04:20:04.533 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 95803] DEBUG PROJECT - Exit from method 
+04:20:04.534 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 95804] DEBUG PROJECT - Entered into method 
+04:20:04.534 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95804] DEBUG PROJECT - Entered into method 
+04:20:04.535 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95805] DEBUG PROJECT - Exit from method 
+04:20:04.535 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 95805] DEBUG PROJECT - Exit from method 
+04:20:04.536 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 95806] DEBUG PROJECT - Entered into method 
+04:20:04.536 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 95806] DEBUG PROJECT - Entered into method 
+04:20:04.537 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 95807] DEBUG PROJECT - Exit from method 
+04:20:04.537 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95807] DEBUG PROJECT - Entered into method 
+04:20:04.538 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95808] DEBUG PROJECT - Exit from method 
+04:20:04.540 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 95810] DEBUG PROJECT - Input parameters are : {"id":"3","name":"Toit","category":"brewpub","rating":5.0,"latitude":34.97,"longitude":138.93} 
+04:20:04.542 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 95812] DEBUG PROJECT - DB Object saved successfully into Database 
+04:20:04.543 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 95813] DEBUG PROJECT - Exit from method 
+04:20:04.543 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 95813] DEBUG PROJECT - Entered into method 
+04:20:04.544 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95814] DEBUG PROJECT - Entered into method 
+04:20:04.544 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95814] DEBUG PROJECT - Exit from method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 95815] DEBUG PROJECT - Exit from method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 95815] DEBUG PROJECT - Entered into method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 95815] DEBUG PROJECT - Entered into method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 95815] DEBUG PROJECT - Exit from method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95815] DEBUG PROJECT - Entered into method 
+04:20:04.545 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95815] DEBUG PROJECT - Exit from method 
+04:20:04.546 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 95816] DEBUG PROJECT - Input parameters are : {"id":"4","name":"JW Marriott","category":"hotel","rating":4.0,"latitude":34.97,"longitude":138.93} 
+04:20:04.548 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 95818] DEBUG PROJECT - DB Object saved successfully into Database 
+04:20:04.548 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 95818] DEBUG PROJECT - Exit from method 
+04:20:04.549 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 95819] DEBUG PROJECT - Entered into method 
+04:20:04.549 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95819] DEBUG PROJECT - Entered into method 
+04:20:04.549 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95819] DEBUG PROJECT - Exit from method 
+04:20:04.550 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 95820] DEBUG PROJECT - Exit from method 
+04:20:04.550 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 95820] DEBUG PROJECT - Entered into method 
+04:20:04.551 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 95821] DEBUG PROJECT - Entered into method 
+04:20:04.551 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 95821] DEBUG PROJECT - Exit from method 
+04:20:04.551 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 95821] DEBUG PROJECT - Entered into method 
+04:20:04.552 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 95822] DEBUG PROJECT - Exit from method 
+04:20:04.553 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 95823] DEBUG PROJECT - Input parameters are : {"id":"5","name":"bannerghatta biological park","category":"National Park","rating":3.5,"latitude":34.97,"longitude":138.93} 
+04:20:04.554 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 95824] DEBUG PROJECT - DB Object saved successfully into Database 
+04:20:04.555 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 95825] DEBUG PROJECT - Exit from method 
+04:20:06.892 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at controllers.ApplicationController.getAll(ApplicationController.java:35)
+ : 98162] DEBUG PROJECT - Entered into method 
+04:20:06.894 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.findQuery(Place.java:270)
+ : 98164] DEBUG PROJECT - Entered into method 
+04:20:07.010 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.findQuery(Place.java:274)
+ : 98280] DEBUG PROJECT - Exit from method 
+04:20:07.010 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 98280] DEBUG PROJECT - Entered into method 
+04:20:07.011 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 98281] DEBUG PROJECT - Exit from method 
+04:20:07.018 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at controllers.ApplicationController.getAll(ApplicationController.java:38)
+ : 98288] DEBUG PROJECT - Exit from method 
+23:58:41.401 [Caller+0	 at play.Logger$ALogger.info(Logger.java:364)
+Caller+1	 at Global.onStart(Global.java:19)
+ : 155762] INFO PROJECT - Application Started 
+23:58:41.465 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:58)
+ : 155826] DEBUG PROJECT - Entered into method 
+23:58:41.466 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:98)
+ : 155827] DEBUG PROJECT - Entered into method 
+23:58:41.494 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:119)
+ : 155855] DEBUG PROJECT - Exit from method 
+23:58:41.495 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:72)
+ : 155856] DEBUG PROJECT - Configuration files are loading 
+23:58:41.495 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:81)
+ : 155856] DEBUG PROJECT - loading of Configuration files success 
+23:58:41.496 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:82)
+ : 155857] DEBUG PROJECT - Exit from method 
+23:58:41.499 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:26)
+ : 155860] DEBUG PROJECT - Entered into method 
+23:58:41.502 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:137)
+ : 155863] DEBUG PROJECT - Entered into method 
+23:58:41.503 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:139)
+ : 155864] DEBUG PROJECT - Exit from method 
+23:58:43.127 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:31)
+ : 157488] DEBUG PROJECT - MongoDB Connection is Established 
+23:58:43.128 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:33)
+ : 157489] DEBUG PROJECT - mongoDB is running on port 27017 
+23:58:43.255 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:52)
+ : 157616] DEBUG PROJECT - Exit from method 
+23:58:43.417 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 157778] DEBUG PROJECT - Entered into method 
+23:58:43.419 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 157780] DEBUG PROJECT - Entered into method 
+23:58:43.445 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 157806] DEBUG PROJECT - Exit from method 
+23:58:43.484 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 157845] DEBUG PROJECT - Exit from method 
+23:58:43.485 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 157846] DEBUG PROJECT - Entered into method 
+23:58:43.485 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 157846] DEBUG PROJECT - Entered into method 
+23:58:43.486 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 157847] DEBUG PROJECT - Exit from method 
+23:58:43.486 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 157847] DEBUG PROJECT - Entered into method 
+23:58:43.486 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 157847] DEBUG PROJECT - Exit from method 
+23:58:43.536 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 157897] DEBUG PROJECT - Input parameters are : {"id":"1","name":"PizzaHut","category":"pizza","rating":3.8,"latitude":49.4680000649,"longitude":17.1151400876} 
+23:58:44.282 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 158643] DEBUG PROJECT - DB Object saved successfully into Database 
+23:58:44.283 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 158644] DEBUG PROJECT - Exit from method 
+23:58:44.284 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 158645] DEBUG PROJECT - Entered into method 
+23:58:44.285 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158646] DEBUG PROJECT - Entered into method 
+23:58:44.285 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158646] DEBUG PROJECT - Exit from method 
+23:58:44.286 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 158647] DEBUG PROJECT - Exit from method 
+23:58:44.286 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 158647] DEBUG PROJECT - Entered into method 
+23:58:44.286 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 158647] DEBUG PROJECT - Entered into method 
+23:58:44.287 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 158648] DEBUG PROJECT - Exit from method 
+23:58:44.287 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158648] DEBUG PROJECT - Entered into method 
+23:58:44.287 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158648] DEBUG PROJECT - Exit from method 
+23:58:44.289 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 158650] DEBUG PROJECT - Input parameters are : {"id":"2","name":"Western","category":"pizza","rating":2.8,"latitude":34.97,"longitude":138.93} 
+23:58:44.291 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 158652] DEBUG PROJECT - DB Object saved successfully into Database 
+23:58:44.291 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 158652] DEBUG PROJECT - Exit from method 
+23:58:44.292 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 158653] DEBUG PROJECT - Entered into method 
+23:58:44.293 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158654] DEBUG PROJECT - Entered into method 
+23:58:44.293 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158654] DEBUG PROJECT - Exit from method 
+23:58:44.294 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 158655] DEBUG PROJECT - Exit from method 
+23:58:44.295 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 158656] DEBUG PROJECT - Entered into method 
+23:58:44.295 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 158656] DEBUG PROJECT - Entered into method 
+23:58:44.296 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 158657] DEBUG PROJECT - Exit from method 
+23:58:44.296 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158657] DEBUG PROJECT - Entered into method 
+23:58:44.296 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158657] DEBUG PROJECT - Exit from method 
+23:58:44.298 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 158659] DEBUG PROJECT - Input parameters are : {"id":"3","name":"Toit","category":"brewpub","rating":5.0,"latitude":34.97,"longitude":138.93} 
+23:58:44.301 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 158662] DEBUG PROJECT - DB Object saved successfully into Database 
+23:58:44.301 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 158662] DEBUG PROJECT - Exit from method 
+23:58:44.302 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 158663] DEBUG PROJECT - Entered into method 
+23:58:44.303 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158664] DEBUG PROJECT - Entered into method 
+23:58:44.303 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158664] DEBUG PROJECT - Exit from method 
+23:58:44.304 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 158665] DEBUG PROJECT - Exit from method 
+23:58:44.305 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 158666] DEBUG PROJECT - Entered into method 
+23:58:44.305 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 158666] DEBUG PROJECT - Entered into method 
+23:58:44.305 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 158666] DEBUG PROJECT - Exit from method 
+23:58:44.305 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158666] DEBUG PROJECT - Entered into method 
+23:58:44.305 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158666] DEBUG PROJECT - Exit from method 
+23:58:44.307 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 158668] DEBUG PROJECT - Input parameters are : {"id":"4","name":"JW Marriott","category":"hotel","rating":4.0,"latitude":34.97,"longitude":138.93} 
+23:58:44.308 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 158669] DEBUG PROJECT - DB Object saved successfully into Database 
+23:58:44.309 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 158670] DEBUG PROJECT - Exit from method 
+23:58:44.309 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 158670] DEBUG PROJECT - Entered into method 
+23:58:44.310 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158671] DEBUG PROJECT - Entered into method 
+23:58:44.310 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158671] DEBUG PROJECT - Exit from method 
+23:58:44.311 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 158672] DEBUG PROJECT - Exit from method 
+23:58:44.311 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 158672] DEBUG PROJECT - Entered into method 
+23:58:44.311 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 158672] DEBUG PROJECT - Entered into method 
+23:58:44.311 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 158672] DEBUG PROJECT - Exit from method 
+23:58:44.312 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 158673] DEBUG PROJECT - Entered into method 
+23:58:44.312 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 158673] DEBUG PROJECT - Exit from method 
+23:58:44.313 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 158674] DEBUG PROJECT - Input parameters are : {"id":"5","name":"bannerghatta biological park","category":"National Park","rating":3.5,"latitude":34.97,"longitude":138.93} 
+23:58:44.315 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 158676] DEBUG PROJECT - DB Object saved successfully into Database 
+23:58:44.321 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 158682] DEBUG PROJECT - Exit from method 
+23:59:47.922 [Caller+0	 at play.Logger$ALogger.info(Logger.java:364)
+Caller+1	 at Global.onStart(Global.java:19)
+ : 222283] INFO PROJECT - Application Started 
+23:59:47.925 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:58)
+ : 222286] DEBUG PROJECT - Entered into method 
+23:59:47.926 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:98)
+ : 222287] DEBUG PROJECT - Entered into method 
+23:59:47.928 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getFileNameFilter(CommonUtils.java:119)
+ : 222289] DEBUG PROJECT - Exit from method 
+23:59:47.929 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:72)
+ : 222290] DEBUG PROJECT - Configuration files are loading 
+23:59:47.929 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:81)
+ : 222290] DEBUG PROJECT - loading of Configuration files success 
+23:59:47.930 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.loadConfigProperties(CommonUtils.java:82)
+ : 222291] DEBUG PROJECT - Exit from method 
+23:59:47.939 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:26)
+ : 222300] DEBUG PROJECT - Entered into method 
+23:59:47.945 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:137)
+ : 222306] DEBUG PROJECT - Entered into method 
+23:59:47.945 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.getProperty(CommonUtils.java:139)
+ : 222306] DEBUG PROJECT - Exit from method 
+23:59:47.947 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:31)
+ : 222308] DEBUG PROJECT - MongoDB Connection is Established 
+23:59:47.947 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:33)
+ : 222308] DEBUG PROJECT - mongoDB is running on port 27017 
+23:59:47.948 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.sources.MongoDB.connectToDB(MongoDB.java:52)
+ : 222309] DEBUG PROJECT - Exit from method 
+23:59:47.954 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 222315] DEBUG PROJECT - Entered into method 
+23:59:47.956 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222317] DEBUG PROJECT - Entered into method 
+23:59:47.961 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222322] DEBUG PROJECT - Exit from method 
+23:59:47.963 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 222324] DEBUG PROJECT - Exit from method 
+23:59:47.963 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 222324] DEBUG PROJECT - Entered into method 
+23:59:47.964 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 222325] DEBUG PROJECT - Entered into method 
+23:59:47.964 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 222325] DEBUG PROJECT - Exit from method 
+23:59:47.964 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222325] DEBUG PROJECT - Entered into method 
+23:59:47.965 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222326] DEBUG PROJECT - Exit from method 
+23:59:47.966 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 222327] DEBUG PROJECT - Input parameters are : {"id":"1","name":"PizzaHut","category":"pizza","rating":3.8,"latitude":49.4680000649,"longitude":17.1151400876} 
+23:59:47.972 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 222333] DEBUG PROJECT - DB Object saved successfully into Database 
+23:59:47.972 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 222333] DEBUG PROJECT - Exit from method 
+23:59:47.976 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 222337] DEBUG PROJECT - Entered into method 
+23:59:47.977 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222338] DEBUG PROJECT - Entered into method 
+23:59:47.977 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222338] DEBUG PROJECT - Exit from method 
+23:59:47.981 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 222342] DEBUG PROJECT - Exit from method 
+23:59:47.981 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 222342] DEBUG PROJECT - Entered into method 
+23:59:47.981 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 222342] DEBUG PROJECT - Entered into method 
+23:59:47.982 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 222343] DEBUG PROJECT - Exit from method 
+23:59:47.982 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222343] DEBUG PROJECT - Entered into method 
+23:59:47.982 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222343] DEBUG PROJECT - Exit from method 
+23:59:47.983 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 222344] DEBUG PROJECT - Input parameters are : {"id":"2","name":"Western","category":"pizza","rating":2.8,"latitude":34.97,"longitude":138.93} 
+23:59:47.985 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 222346] DEBUG PROJECT - DB Object saved successfully into Database 
+23:59:47.986 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 222347] DEBUG PROJECT - Exit from method 
+23:59:47.986 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 222347] DEBUG PROJECT - Entered into method 
+23:59:47.987 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222348] DEBUG PROJECT - Entered into method 
+23:59:47.987 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222348] DEBUG PROJECT - Exit from method 
+23:59:47.993 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 222354] DEBUG PROJECT - Exit from method 
+23:59:47.994 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 222355] DEBUG PROJECT - Entered into method 
+23:59:47.994 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 222355] DEBUG PROJECT - Entered into method 
+23:59:47.995 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 222356] DEBUG PROJECT - Exit from method 
+23:59:47.995 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222356] DEBUG PROJECT - Entered into method 
+23:59:47.995 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222356] DEBUG PROJECT - Exit from method 
+23:59:47.998 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 222359] DEBUG PROJECT - Input parameters are : {"id":"3","name":"Toit","category":"brewpub","rating":5.0,"latitude":34.97,"longitude":138.93} 
+23:59:48.001 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 222362] DEBUG PROJECT - DB Object saved successfully into Database 
+23:59:48.001 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 222362] DEBUG PROJECT - Exit from method 
+23:59:48.002 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 222363] DEBUG PROJECT - Entered into method 
+23:59:48.002 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222363] DEBUG PROJECT - Entered into method 
+23:59:48.003 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222364] DEBUG PROJECT - Exit from method 
+23:59:48.004 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 222365] DEBUG PROJECT - Exit from method 
+23:59:48.004 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 222365] DEBUG PROJECT - Entered into method 
+23:59:48.004 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 222365] DEBUG PROJECT - Entered into method 
+23:59:48.005 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 222366] DEBUG PROJECT - Exit from method 
+23:59:48.005 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222366] DEBUG PROJECT - Entered into method 
+23:59:48.005 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222366] DEBUG PROJECT - Exit from method 
+23:59:48.006 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 222367] DEBUG PROJECT - Input parameters are : {"id":"4","name":"JW Marriott","category":"hotel","rating":4.0,"latitude":34.97,"longitude":138.93} 
+23:59:48.008 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 222369] DEBUG PROJECT - DB Object saved successfully into Database 
+23:59:48.008 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 222369] DEBUG PROJECT - Exit from method 
+23:59:48.009 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:190)
+ : 222370] DEBUG PROJECT - Entered into method 
+23:59:48.009 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222370] DEBUG PROJECT - Entered into method 
+23:59:48.010 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222371] DEBUG PROJECT - Exit from method 
+23:59:48.010 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.jsonToObj(CommonUtils.java:192)
+ : 222371] DEBUG PROJECT - Exit from method 
+23:59:48.011 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:193)
+ : 222372] DEBUG PROJECT - Entered into method 
+23:59:48.011 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:170)
+ : 222372] DEBUG PROJECT - Entered into method 
+23:59:48.011 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.CommonUtils.objToJson(CommonUtils.java:171)
+ : 222372] DEBUG PROJECT - Exit from method 
+23:59:48.011 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:23)
+ : 222372] DEBUG PROJECT - Entered into method 
+23:59:48.012 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.utils.ModelUtils.getGson(ModelUtils.java:27)
+ : 222373] DEBUG PROJECT - Exit from method 
+23:59:48.013 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:194)
+ : 222374] DEBUG PROJECT - Input parameters are : {"id":"5","name":"bannerghatta biological park","category":"National Park","rating":3.5,"latitude":34.97,"longitude":138.93} 
+23:59:48.015 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:204)
+ : 222376] DEBUG PROJECT - DB Object saved successfully into Database 
+23:59:48.015 [Caller+0	 at play.Logger$ALogger.debug(Logger.java:335)
+Caller+1	 at com.project.placeModel.Place.put(Place.java:205)
+ : 222376] DEBUG PROJECT - Exit from method 

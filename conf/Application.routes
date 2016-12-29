@@ -1,0 +1,20 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#shailesh
+GET                /                          controllers.ApplicationController.index()   
+POST                /signup                   controllers.ApplicationController.signup() 
+POST                /publishAnArticle/:id        controllers.ApplicationController.publishAnArticle(id)
+
+GET                /getUserArticles/:uid       controllers.ApplicationController.getUserArticles(uid)
+GET                /getCategoryArticles/:category  controllers.ApplicationController.getCategoryArticles(category)
+GET                /getAllTheUsers             controllers.ApplicationController.getAllTheUsers()            
+GET                /getModifyCategoryOfArticle/:newCategory/:articleID      controllers.ApplicationController.getModifyCategoryOfArticle(newCategory,articleID)
+GET                 /userProfile/:uid   controllers.ApplicationController.userProfile(uid)                            
+GET                 /removeArticle/:articleid             controllers.ApplicationController.removeArticle(articleid)                              
+POST               /login                      controllers.ApplicationController.login()
+GET                /logout                     controllers.ApplicationController.doLogout()
+  
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               					controllers.Assets.at(path="/public", file)
